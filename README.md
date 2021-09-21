@@ -1,9 +1,9 @@
 # [Grokking-the-Coding-Interview-Patterns-for-Coding-Questions](https://www.educative.io/courses/grokking-the-coding-interview)
 
-## 1. Pattern: Sliding Window
+##  1. Pattern: Sliding Window
 
     1.  Maximum Sum Subarray of Size K (easy)  
-    2.  Smallest Subarray with a given sum (easy)
+    2.  Smallest Subarray with a given sum (easy)     
     3.  Longest Substring with K Distinct Characters (medium)  
     4.  Fruits into Baskets (medium)  
     5.  No-repeat Substring (hard) *  
@@ -14,7 +14,7 @@
     10. Problem Challenge 3 - Smallest Window containing Substring (hard) *  
     11. Problem Challenge 4 - Words Concatenation (hard)    
 
-## 2. Pattern: Two Pointers
+##  2. Pattern: Two Pointers
 
     1.  Pair with Target Sum (easy)         
     2.  Remove Duplicates (easy)  
@@ -29,13 +29,13 @@
 
 ## 3. Pattern: Fast & Slow pointers
 
-    1.  LinkedList Cycle (easy)
-    2.  Middle of the LinkedList (easy)
-    3.  Start of LinkedList Cycle (medium) *
-    4.  Happy Number (medium) * 
-    5.  Problem Challenge 1 - Palindrome LinkedList (medium) *
-    6.  Problem Challenge 2 - Rearrange a LinkedList (medium)
-    7.  Problem Challenge 3 - Cycle in a Circular Array (hard) *
+    1.  LinkedList Cycle (easy)      
+    2.  Middle of the LinkedList (easy)    
+    3.  Start of LinkedList Cycle (medium) *   
+    4.  Happy Number (medium) *    
+    5.  Problem Challenge 1 - Palindrome LinkedList (medium) *   
+    6.  Problem Challenge 2 - Rearrange a LinkedList (medium)  
+    7.  Problem Challenge 3 - Cycle in a Circular Array (hard) *   
 
 ## 4. Pattern: Merge Intervals
 

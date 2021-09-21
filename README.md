@@ -4,28 +4,28 @@
 
     1.  Maximum Sum Subarray of Size K (easy)  
     2.  Smallest Subarray with a given sum (easy)
-    3.  Longest Substring with K Distinct Characters (medium)
-    4.  Fruits into Baskets (medium)
-    5.  No-repeat Substring (hard) *
-    6.  Longest Substring with Same Letters after Replacement (hard)
-    7.  Longest Subarray with Ones after Replacement (hard) *
-    8.  Problem Challenge 1 - Permutation in a String (hard) *
-    9.  Problem Challenge 2 - String Anagrams (hard)
-    10. Problem Challenge 3 - Smallest Window containing Substring (hard) *
-    11. Problem Challenge 4 - Words Concatenation (hard) 
+    3.  Longest Substring with K Distinct Characters (medium)  
+    4.  Fruits into Baskets (medium)  
+    5.  No-repeat Substring (hard) *  
+    6.  Longest Substring with Same Letters after Replacement (hard)  
+    7.  Longest Subarray with Ones after Replacement (hard) *  
+    8.  Problem Challenge 1 - Permutation in a String (hard) *  
+    9.  Problem Challenge 2 - String Anagrams (hard)  
+    10. Problem Challenge 3 - Smallest Window containing Substring (hard) *  
+    11. Problem Challenge 4 - Words Concatenation (hard)    
 
 ## 2. Pattern: Two Pointers
 
-    1.  Pair with Target Sum (easy)  
-    2.  Remove Duplicates (easy)
-    3.  Squaring a Sorted Array (easy)
-    4.  Triplet Sum to Zero (medium)
-    5.  Triplet Sum Close to Target (medium)
-    6.  Triplets with Smaller Sum (medium)
-    7.  Subarrays with Product Less than a Target (medium) *
-    8.  Problem Challenge 1 - Quadruple Sum to Target (medium) *
-    9.  Problem Challenge 2 - Comparing Strings containing Backspaces (medium)
-    10.  Problem Challenge 3 - Minimum Window Sort (medium) *
+    1.  Pair with Target Sum (easy)         
+    2.  Remove Duplicates (easy)  
+    3.  Squaring a Sorted Array (easy)   
+    4.  Triplet Sum to Zero (medium)        
+    5.  Triplet Sum Close to Target (medium)   
+    6.  Triplets with Smaller Sum (medium)    
+    7.  Subarrays with Product Less than a Target (medium) *    
+    8.  Problem Challenge 1 - Quadruple Sum to Target (medium) *    
+    9.  Problem Challenge 2 - Comparing Strings containing Backspaces (medium)    
+    10.  Problem Challenge 3 - Minimum Window Sort (medium) *   
 
 ## 3. Pattern: Fast & Slow pointers
 

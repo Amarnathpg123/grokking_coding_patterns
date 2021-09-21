@@ -1,6 +1,6 @@
 # [Grokking-the-Coding-Interview-Patterns-for-Coding-Questions](https://www.educative.io/courses/grokking-the-coding-interview)
 
-##  1. Pattern: Sliding Window
+## 1. Pattern: Sliding Window
 
     1.  Maximum Sum Subarray of Size K (easy)  
     2.  Smallest Subarray with a given sum (easy)     
@@ -14,7 +14,7 @@
     10. Problem Challenge 3 - Smallest Window containing Substring (hard) *  
     11. Problem Challenge 4 - Words Concatenation (hard)    
 
-##  2. Pattern: Two Pointers
+## 2. Pattern: Two Pointers
 
     1.  Pair with Target Sum (easy)         
     2.  Remove Duplicates (easy)  

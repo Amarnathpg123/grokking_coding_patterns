@@ -16,16 +16,16 @@
 
 ## 2. Pattern: Two Pointers
 
-    1.  Pair with Target Sum (easy)         
-    2.  Remove Duplicates (easy)  
-    3.  Squaring a Sorted Array (easy)   
-    4.  Triplet Sum to Zero (medium)        
-    5.  Triplet Sum Close to Target (medium)   
-    6.  Triplets with Smaller Sum (medium)    
-    7.  Subarrays with Product Less than a Target (medium) *    
-    8.  Problem Challenge 1 - Quadruple Sum to Target (medium) *    
-    9.  Problem Challenge 2 - Comparing Strings containing Backspaces (medium)    
-    10.  Problem Challenge 3 - Minimum Window Sort (medium) *   
+    1. Pair with Target Sum (easy)         
+    2. Remove Duplicates (easy)  
+    3. Squaring a Sorted Array (easy)   
+    4. Triplet Sum to Zero (medium)        
+    5. Triplet Sum Close to Target (medium)   
+    6. Triplets with Smaller Sum (medium)    
+    7. Subarrays with Product Less than a Target (medium) *    
+    8. Problem Challenge 1 - Quadruple Sum to Target (medium) *    
+    9. Problem Challenge 2 - Comparing Strings containing Backspaces (medium)    
+    10. Problem Challenge 3 - Minimum Window Sort (medium) *   
 
 ## 3. Pattern: Fast & Slow pointers
 

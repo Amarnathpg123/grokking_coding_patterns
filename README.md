@@ -1,6 +1,7 @@
 # [Grokking-the-Coding-Interview-Patterns-for-Coding-Questions](https://www.educative.io/courses/grokking-the-coding-interview)
 
 ## 1. Pattern: Sliding Window
+
     1.  Maximum Sum Subarray of Size K (easy)
     2.  Smallest Subarray with a given sum (easy)
     3.  Longest Substring with K Distinct Characters (medium)
@@ -14,6 +15,7 @@
     11. Problem Challenge 4 - Words Concatenation (hard) 
 
 ## 2. Pattern: Two Pointers
+
     1.  Pair with Target Sum (easy)
     2.  Remove Duplicates (easy)
     3.  Squaring a Sorted Array (easy)
@@ -26,6 +28,7 @@
     10.  Problem Challenge 3 - Minimum Window Sort (medium) *
 
 ## 3. Pattern: Fast & Slow pointers
+
     1.  LinkedList Cycle (easy)
     2.  Middle of the LinkedList (easy)
     3.  Start of LinkedList Cycle (medium) *
@@ -35,6 +38,7 @@
     7.  Problem Challenge 3 - Cycle in a Circular Array (hard) *
 
 ## 4. Pattern: Merge Intervals
+
     1.  Merge Intervals (medium)
     2.  Insert Interval (medium) *
     3.  Intervals Intersection (medium)
@@ -44,6 +48,7 @@
     7.  Problem Challenge 3 - Employee Free Time (hard) *
 
 ## 5.Pattern: Cyclic Sort
+
     1.  Cyclic Sort (easy)
     2.  Find the Missing Number (easy)
     3.  Find all Missing Numbers (easy)
@@ -54,6 +59,7 @@
     8.  Problem Challenge 3 - Find the First K Missing Positive Numbers (hard) *
 
 ## 6. Pattern: In-place Reversal of a LinkedList
+
     1.  Reverse a LinkedList (easy) 
     2.  Reverse a Sub-list (medium) 
     3.  Reverse every K-element Sub-list (medium) *
@@ -61,6 +67,7 @@
     5.  Problem Challenge 2 - Rotate a LinkedList (medium)
 
 ## 7. Pattern: Tree Breadth First Search
+
     1.  Binary Tree Level Order Traversal (easy)
     2.  Reverse Level Order Traversal (easy) * 
     3.  Zigzag Traversal (medium)
@@ -72,6 +79,7 @@
     9.  Problem Challenge 2 - Right View of a Binary Tree (easy) 
 
 ## 8. Pattern: Tree Depth First Search
+
     1.  Binary Tree Path Sum (easy)
     2.  All Paths for a Sum (medium) *
     3.  Sum of Path Numbers (medium)
@@ -81,12 +89,14 @@
     7.  Problem Challenge 2 - Path with Maximum Sum (hard) *
 
 ## 9. Pattern: Two Heaps
+
     1.  Find the Median of a Number Stream (medium) 
     2.  Sliding Window Median (hard) *
     3.  Maximize Capital (hard) * 
     4.  Problem Challenge 1 - Next Interval (hard) 
 
 ## 10. Pattern: Subsets
+
     1.  Subsets (easy)
     2.  Subsets With Duplicates (easy) *
     3.  Permutations (medium) *
@@ -98,6 +108,7 @@
     9.  Problem Challenge 3 - Count of Structurally Unique Binary Search Trees (hard)
 
 ## 11. Pattern: Modified Binary Search
+
     1.  Order-agnostic Binary Search (easy)
     2.  Ceiling of a Number (medium) *
     3.  Next Letter (medium)
@@ -110,12 +121,14 @@
     10.  Problem Challenge 3 - Rotation Count (medium) *
 
 ## 12. Pattern: Bitwise XOR
+
     1.  Single Number (easy)
     2.  Two Single Numbers (medium) *
     3.  Complement of Base 10 Number (medium)
     4.  Problem Challenge 1
 
 ## 13. Pattern Top 'K' Elements
+
     1.  Top 'K' Numbers (easy)
     2.  Kth Smallest Number (easy)
     3.  'K' Closest Points to the Origin (easy)
@@ -132,6 +145,7 @@
     14.  Problem Challenge 3 - Frequency Stack (hard) 
 
 ## 14. Pattern: K-way merge
+
     1.  Merge K Sorted Lists (medium) *
     2.  Kth Smallest Number in M Sorted Lists (Medium) 
     3.  Kth Smallest Number in a Sorted Matrix (Hard) *
@@ -139,6 +153,7 @@
     5.  Problem Challenge 1 - K Pairs with Largest Sums (Hard) 
 
 ## 15. Pattern : 0/1 Knapsack (Dynamic Programming)
+
     1.  0/1 Knapsack (medium)
     2.  Equal Subset Sum Partition (medium) *
     3.  Subset Sum (medium)
@@ -147,6 +162,7 @@
     6.  Problem Challenge 2 - Target Sum (hard) 
 
 ## 16. Pattern: Topological Sort (Graph)
+
     1.  Topological Sort (medium) *
     2.  Tasks Scheduling (medium)
     3.  Tasks Scheduling Order (medium)
@@ -156,5 +172,6 @@
     7.  Problem Challenge 2 - Minimum Height Trees (hard) *
 
 ## 17. Miscellaneous
+
     1.  Kth Smallest Number (hard) *
 

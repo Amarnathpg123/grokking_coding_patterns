@@ -2,7 +2,7 @@
 
 ## 1. Pattern: Sliding Window
 
-    1.  Maximum Sum Subarray of Size K (easy)
+    1.  Maximum Sum Subarray of Size K (easy)  
     2.  Smallest Subarray with a given sum (easy)
     3.  Longest Substring with K Distinct Characters (medium)
     4.  Fruits into Baskets (medium)
@@ -16,7 +16,7 @@
 
 ## 2. Pattern: Two Pointers
 
-    1.  Pair with Target Sum (easy)
+    1.  Pair with Target Sum (easy)  
     2.  Remove Duplicates (easy)
     3.  Squaring a Sorted Array (easy)
     4.  Triplet Sum to Zero (medium)

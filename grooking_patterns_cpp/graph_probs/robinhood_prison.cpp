@@ -12,7 +12,7 @@ int bfs(int &i, int &j, vector<vector<char>> &map) {
             i = t.first, j = t.second;
             if(map[i][j] == 'P') continue;
             if(map[i][j] == 'E') return depth;
-            map[i][j] = 'P';
+            map[i][j] = 'P';  // make it visited
 
             if(i-1>=0 and (map[i-1][j] == 'O' or map[i-1][j] == 'E')) qp.push({i-1, j});
             if(i+1<(int)map.size() and (map[i+1][j] == 'O' or map[i+1][j] == 'E')) qp.push({i+1, j});

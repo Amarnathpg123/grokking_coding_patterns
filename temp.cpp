@@ -1,35 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-vector<vector<int>> dp(105, vector<int> (105, -1));
+size_t changePossibilities(int amount, const vector<int>& denom) {
+    vector<int> dp(denom.size()+1, 1);
+    dp[0] = 0;
 
-class Solution {
-    string A;
+    if(amount == 0) return 1;
+    if(denom.size() == 0) return 0;
 
-int utility(int i, int j, string &A) {
-    if(dp[i][j] != -1) return dp[i][j];
-
-    if(i*j == 0) return dp[i][j] = 0;
-
-    if(i == j) return dp[i][j] = max(utility(i-1,j, A), utility(i,j-1,A));
-
-    else {
-        if(A[i-1] == A[j-1]) return dp[i][j] = 1+utility(i-1,j-1,A);
-        else return dp[i][j] = max(utility(i-1,j, A), utility(i,j-1,A));
-    }
-}
-    public:
-        Solution() {
-            cin >> A;
+    for(int i = 1; i < amount+1; ++i) {
+        for(int j = 0; j < denom.size(); ++j) {
+           dp[j]  +=  
         }
-        int solve();
-};
-
-
-
-int Solution::solve() {
-    if(utility(A.size(), A.size(), A) > 1) return 1;
-    else return 0;
+    }
+    return dp[denom.size()];
 }
 
 
@@ -37,7 +21,8 @@ int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(nullptr); cout.tie(nullptr);
 
-    Solution sol;
-    cout << sol.solve();
+    vector<int> denom = {1, 2, 3};
+    int amount = 4;
+    cout << changePossibilities(amount, denom) << endl;
     return 0;
 }

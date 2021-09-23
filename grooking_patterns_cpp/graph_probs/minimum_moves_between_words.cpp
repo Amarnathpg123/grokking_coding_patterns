@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//We’ll be provided with an initial word, a final word, and a word group in the form of a list. 
+//Our code needs to pick the shortest sequence of words of the same length from the word group, 
+//starting with the initial word and ending at the final word. 
+//This sequence should be such that each consecutive word differs from the previous one in one letter only.
+
 int minimumMoves(std::string beginWord, std::string endWord, std::vector<std::string> wordList) {
 
     // Since all words are of same length.

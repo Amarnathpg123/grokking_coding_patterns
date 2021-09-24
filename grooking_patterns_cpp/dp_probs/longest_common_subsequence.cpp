@@ -16,13 +16,42 @@ long lcs_rec(string &s, string &t, vector<vector<long>> &L, size_t i, size_t j){
     }
 }
 
-int main(){
+void printLCS(string &s) {
+    if(s.length() < 2) return;
+
+    int n = s.length();
+    vector<vector<int>> dp(n+1, vector<int> (n+1, 0));
+
+    for(int i = 1; i <= n; ++i) {
+        for(int j = 1; j <= n; ++j) {
+            if(s[i-1] == s[j-1]) dp[i][j] = 1+dp[i-1][j-1];
+            else dp[i][j] = max(dp[i-1][j], dp[i][j-1]);
+        }
+    }
+
+    int i = n, j = n;
+    vector<int> left, right;
+    string res;
+    while(i > 0 and j > 0) {
+        if(dp[i][j] == 1+dp[i-1][j-1]) {
+            res += s[i-1];   //only i is giving currect string not j
+            left.push_back(i);
+            i--; j--;
+        }
+        else if(dp[i][j] == dp[i-1][j]) i--;
+        else j--;
+    }
+}
+
+int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
     string s, t;
-    cout << "Enter the strings for lcs: " << endl; cin >> s >> t;
-    vector<vector<long>> L(s.length()+1, vector<long> (t.length()+1, -1));
-    printf("Longest common subsequence length: %ld\n", lcs_rec(s, t, L, s.length(), t.length()));
+    cout << "Enter the strings for lcs: " << endl; cin >> s;
+    printLCS(s); // from one string to find longest palindrome
+    // cin >> t;
+    // vector<vector<long>> L(s.length()+1, vector<long> (t.length()+1, -1));
+    // printf("Longest common subsequence length: %ld\n", lcs_rec(s, t, L, s.length(), t.length()));
     return 0;
 }

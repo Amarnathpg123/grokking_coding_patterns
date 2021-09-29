@@ -17,14 +17,17 @@ long lcs_rec(string &s, string &t, vector<vector<long>> &L, size_t i, size_t j){
 }
 
 void printLCS(string &s) {
+    
     if(s.length() < 2) return;
+
+    string t(s.rbegin(), s.rend());
 
     int n = s.length();
     vector<vector<int>> dp(n+1, vector<int> (n+1, 0));
 
     for(int i = 1; i <= n; ++i) {
         for(int j = 1; j <= n; ++j) {
-            if(s[i-1] == s[j-1]) dp[i][j] = 1+dp[i-1][j-1];
+            if(s[i-1] == t[j-1] and i != j) dp[i][j] = 1+dp[i-1][j-1];
             else dp[i][j] = max(dp[i-1][j], dp[i][j-1]);
         }
     }
@@ -41,6 +44,9 @@ void printLCS(string &s) {
         else if(dp[i][j] == dp[i-1][j]) i--;
         else j--;
     }
+
+    reverse(res.begin(), res.end());
+    cout << res << endl;
 }
 
 int main() {

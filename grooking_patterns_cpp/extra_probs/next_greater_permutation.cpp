@@ -4,23 +4,22 @@ using namespace std;
 void findNextGreaterPermutation(vector<int> &arr) {
     if(arr.size() < 2) return;
     
-    int lastGreater = -1;
+    int i = 0;
 
-    for(int i = 1; i < arr.size(); ++i) 
-        if(arr[i]>arr[i-1]) lastGreater = i;
+    for(i = arr.size()-1; i > 0; --i) 
+        if(arr[i]>arr[i-1]) break;
 
-    if(lastGreater == -1)  { //decreasing sequence 
-        for(int i = 0; i < int(arr.size()/2); ++i) 
-           swap(arr[i], arr[arr.size()-1-i]);
-        return;
+    //if i == 0 no next greater perm is possible
+
+    if(i != 0) {
+        for(int j = arr.size()-1; j > i; j--)
+            if(arr[j] > arr[i-1]) {
+                swap(arr[i-1], arr[j]);
+                break;
+            }
     }
 
-    int index = lastGreater;
-    for(int i = lastGreater+1; i < arr.size(); ++i)
-        if(arr[lastGreater-1]<arr[i]) index= i;
-
-    swap(arr[index], arr[lastGreater-1]);
-    sort(arr.begin()+lastGreater, arr.end());
+    reverse(arr.begin()+i, arr.end());
 }
 
 int main() {

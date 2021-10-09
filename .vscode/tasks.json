@@ -4,7 +4,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
-            "command": "g++.exe",
+            "command": "g++",
             "args": [
                 "-g3",
                 "-W", "-Wall", "-Wno-unused-result", "-Wextra", "-pedantic-errors", "-O3",

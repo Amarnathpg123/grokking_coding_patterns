@@ -27,7 +27,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build simple",
-            "command": "g++.exe",
+            "command": "g++",
             "args": [
                 "-g3",
                 "${file}",

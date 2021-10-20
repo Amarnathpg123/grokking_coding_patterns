@@ -2,7 +2,7 @@
 Problem Challenge 3
 
 Rotation Count (medium) 
-Given an array of numbers which is sorte    d in ascending order and is rotated ‘k’ times around a pivot, find ‘k’.
+Given an array of numbers which is sorted in ascending order and is rotated ‘k’ times around a pivot, find ‘k’.
 
 You can assume that the array does not have any duplicates.
 

@@ -1,1 +1,21 @@
-{5, 28}, {7, 70}, {54, 93}, {5, 98}, {46, 70}, {42, 63}, {5, 91}, {30, 49}, {36, 57}, {31, 95}, {86, 88}, {9, 90}, {5, 53}, {42, 62}, {14, 100}, {59, 75}, {32, 100}, {5, 79}, {31, 31}, {7, 42}, {13, 47}, {44, 87}, {61, 83}, {100, 100}, {96, 98}, {47, 51}, {34, 44}, {6, 53}, {30, 92}, {50, 64}, {37, 57}, {49, 67}, {2, 67}, {36, 50}, {55, 100}, {54, 78}, {58, 70}, {2, 37}, {13, 54}, {7, 60}, {16, 79}, {35, 78}, {17, 57}, {16, 84}, {60, 80}, {10, 54}, {54, 59}, {62, 85}, {7, 37}, {31, 99}, {40, 41}, {4, 99}, {28, 45}, {27, 71}, {14, 64}
+def non_repeat_substring(str):
+  window_start = 0
+  max_length = 0
+  char_index_map = {}
+
+  # try to extend the range [windowStart, windowEnd]
+  for window_end in range(len(str)):
+    right_char = str[window_end]
+    # if the map already contains the 'right_char', shrink the window from the beginning so that
+    # we have only one occurrence of 'right_char'
+    if right_char in char_index_map:
+      # this is tricky; in the current window, we will not have any 'right_char' after its previous index
+      # and if 'window_start' is already ahead of the last index of 'right_char', we'll keep 'window_start'
+      window_start = max(window_start, char_index_map[right_char] + 1)
+    # insert the 'right_char' into the map
+    char_index_map[right_char] = window_end
+    # remember the maximum length so far
+    max_length = max(max_length, window_end - window_start + 1)
+  return max_length
+
+print(non_repeat_substring("GEEKSGEEKSFOR"))

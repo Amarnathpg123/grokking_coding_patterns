@@ -35,7 +35,7 @@ int findMaxrectangle(vector<int> &arr) {
     while(i < n)
         mx_area = max(mx_area, (right[i]-left[i]+1)*arr[i++]); 
 
-    return mx_area;
+    return mx_area;     
 }
 
 int main() {

@@ -16,7 +16,7 @@ bool whoWins(int const &n) {
     if(n == 1) return 0;
     vector<bool> dp(n+1, 0);
 
-    for(int i = 0; i < n; ++i) {
+    for(int i = 2; i < n; ++i) {
         for(int j = 2; j < 6; ++j) {
             if(dp[i/j] == 0) dp[i] = 1;
             if(i-j >= 0 and dp[i-j] == 0) dp[i] = 1;

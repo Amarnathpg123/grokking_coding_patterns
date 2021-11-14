@@ -14,31 +14,22 @@ bool wordBreak(string s){
 	if (n == 0)
 		return true;
 
-	vector<bool> dp(n + 1, 0); 
-
 	vector<int> matched_index;
 	matched_index.push_back(-1);
 
 	for (int i = 0; i < n; i++) {
 		int msize = matched_index.size(); 
 
-		bool f = 0;
-
 		for (int j = msize - 1; j >= 0; j--) {
 			string sb = s.substr(matched_index[j] + 1, i - matched_index[j]);
 
 			if (dictionaryContains(sb)) {
-				f = true;
+				matched_index.push_back(i);
 				break;
 			}
 		}
-
-		if (f) {
-			dp[i] = 1;
-			matched_index.push_back(i);
-		}
 	}
-	return dp[n - 1];
+	return matched_index.back()==(n-1);
 }
 
 int main(){
